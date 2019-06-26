@@ -43,6 +43,9 @@
     <!-- Whether to send camera status intent -->
     <bool name="config_sendCameraStatusIntent">true</bool>
 
+    <!-- Show a custom view for FOD -->
+    <bool name="config_needCustomFODView">true</bool>
+
     <!-- We don't have multicolor LED -->
     <bool name="config_multiColorBatteryLed">false</bool>
 
