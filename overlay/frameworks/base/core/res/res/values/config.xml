@@ -45,4 +45,7 @@
 
     <!-- We don't have multicolor LED -->
     <bool name="config_multiColorBatteryLed">false</bool>
+
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height_portrait">35.0dip</dimen>
 </resources>
