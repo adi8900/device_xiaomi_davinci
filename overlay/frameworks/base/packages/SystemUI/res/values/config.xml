@@ -23,5 +23,5 @@
     <bool name="doze_proximity_check_before_pulse">false</bool>
 
     <!-- Color of the FOD view -->
-    <color name="config_fodColor">#00ff00</color>
+    <color name="config_fodColor">#ccccac</color>
 </resources>
