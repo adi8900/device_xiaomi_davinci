@@ -23,7 +23,7 @@
     <bool name="doze_proximity_check_before_pulse">false</bool>
 
     <!-- Color of the FOD view -->
-    <color name="config_fodColor">#00ffffff</color>
+    <color name="config_fodColor">#ccccac</color>
 	
     <!-- The number of columns in the QuickSettings -->
     <integer name="quick_settings_num_columns">4</integer>
