@@ -7,11 +7,14 @@
 # Inherit from davinci device
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_davinci
+PRODUCT_NAME := derp_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
