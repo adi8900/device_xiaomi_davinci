@@ -42,4 +42,7 @@
 
     <!-- Whether to send camera status intent -->
     <bool name="config_sendCameraStatusIntent">true</bool>
+
+    <!-- We don't have multicolor LED -->
+    <bool name="config_multiColorBatteryLed">false</bool>
 </resources>
