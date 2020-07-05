@@ -9,9 +9,12 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 
 # Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+
+# Gapps Configs
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
+TARGET_INCLUDE_STOCK_ARCORE := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_davinci
