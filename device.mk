@@ -36,6 +36,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor
 
+PRODUCT_PACKAGES += \
+    libMegviiFacepp-0.5.2 \
+    libmegface
+
 # Init scripts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.davinci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.davinci.rc
