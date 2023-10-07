@@ -44,8 +44,7 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_HEADERS := kernel/xiaomi/sm6150
 TARGET_FORCE_PREBUILT_KERNEL := true
-PRODUCT_COPY_FILES += 
-    $(DEVICE_PATH)/prebuilt/Image.gz-dtb:kernel
+PRODUCT_COPY_FILES += $(DEVICE_PATH)/prebuilt/Image.gz-dtb:kernel
 
 # Partitions
 BOARD_SUPER_PARTITION_BLOCK_DEVICES := vendor system cust
