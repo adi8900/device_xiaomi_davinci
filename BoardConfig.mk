@@ -39,6 +39,13 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE += androidboot.hardware.revision=V1
 BOARD_KERNEL_CMDLINE += androidboot.android_dt_dir=/non-existent androidboot.boot_devices=soc/1d84000.ufshc
 TARGET_KERNEL_CONFIG := vendor/davinci_defconfig
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
+TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_HEADERS := kernel/xiaomi/sm6150
+TARGET_FORCE_PREBUILT_KERNEL := true
+PRODUCT_COPY_FILES += 
+    $(DEVICE_PATH)/prebuilt/Image.gz-dtb:kernel
 
 # Partitions
 BOARD_SUPER_PARTITION_BLOCK_DEVICES := vendor system cust
