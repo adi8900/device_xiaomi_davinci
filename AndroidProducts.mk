@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_davinci.mk
+    $(LOCAL_DIR)/aosp_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_davinci-userdebug \
-    derp_davinci-eng
+    aosp_davinci-userdebug \
+    aosp_davinci-eng
